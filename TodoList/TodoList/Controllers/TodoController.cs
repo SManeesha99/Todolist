@@ -18,13 +18,20 @@ namespace TodoList.Controllers
             return View();
         }
 
-        //handle form submission create new todo
+        //handle form submission create new todo list
         [HttpPost]
         public IActionResult Create(ToDoItem todo)
         {
-            todo.Id = nextId++;
-            todolist.Add(todo);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                todo.Id = nextId++;
+                todolist.Add(todo);
+
+                TempData["SuccessMessage"] = "Todo item added successfully!";
+                return RedirectToAction("Index");
+            }
+
+            return View(todo);
         }
 
         public IActionResult Edit(int id)
@@ -34,7 +41,7 @@ namespace TodoList.Controllers
             return View(todo);
         }
 
-        //handle form submission edit todo
+        //handle form submission edit todo list
         [HttpPost]
         public IActionResult Edit(ToDoItem updatedTodo)
         {

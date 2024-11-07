@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5jKEsTdOsTELvxZ5twmwSxw9FJ4Y7JhT1XVN+6H06nU=",
+  "Hash": "flMgdghUMcQ04dHCX4g4vSjHiru5sKcPd2xboXsH9zY=",
   "Source": "TodoList",
   "BasePath": "_content/TodoList",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\TodoList.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\create.css",
+      "SourceId": "TodoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\",
+      "BasePath": "_content/TodoList",
+      "RelativePath": "css/create.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\create.css"
+    },
+    {
+      "Identity": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\edit.css",
+      "SourceId": "TodoList",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\",
+      "BasePath": "_content/TodoList",
+      "RelativePath": "css/edit.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\edit.css"
     },
     {
       "Identity": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\site.css",

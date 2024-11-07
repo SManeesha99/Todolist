@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\TodoList.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
+      "Id": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\edit.css",
+      "PackagePath": "staticwebassets\\css\\edit.css"
+    },
+    {
       "Id": "C:\\Users\\Maniya\\Desktop\\Projects\\Todolist\\TodoList\\TodoList\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
