@@ -1,0 +1,23 @@
+﻿@model List<TodoList.Models.ToDoItem>
+
+<h2>Todo List</h2>
+<a href="/Todo/Create">Add New Todo</a>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var todo in Model)
+    {
+        <tr>
+            <td>@todo.Title</td>
+            <td>@(todo.IsCompleted ? "Completed" : "Pending")</td>
+            <td>
+                <a href="/Todo/Edit/@todo.Id">Edit</a> |
+                <a href="/Todo/Delete/@todo.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

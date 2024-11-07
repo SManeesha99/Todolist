@@ -1,0 +1,14 @@
+﻿@model TodoList.Models.ToDoItem
+
+<h2>Edit Todo</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <label>Title</label>
+    <input type="text" asp-for="Title" required />
+
+    <label>Is Completed</label>
+    <input type="checkbox" asp-for="IsCompleted" />
+
+    <button type="submit">Save Changes</button>
+</form>
